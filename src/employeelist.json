@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "firstName": "Daniel",
+    "lastName": "Aberanda",
+    "image": "https://via.placeholder.com/150.png",
+    "role": "Sales Representative",
+    "fullName": "Daniel Aberanda",
+    "phoneNumber": "303-555-4780",
+    "email": "d.Aberanda@evergreenmarketing.com"
+  },
+  {
+    "id": 2,
+    "firstName": "Kelsey",
+    "lastName": "Cohen",
+    "image": "https://via.placeholder.com/150.png",
+    "role": "SEO Analyst",
+    "fullName": "Kelsey Cohen",
+    "phoneNumber": "303-555-4781",
+    "email": "k.Cohen@evergreenmarketing.com"
+  },
+  {
+    "id": 3,
+    "firstName": "Mark",
+    "lastName": "Soterro",
+    "image": "https://via.placeholder.com/150.png",
+    "role": "Team Lead",
+    "fullName": "Mark Soterro",
+    "phoneNumber": "303-555-4782",
+    "email": "m.Soterro@evergreenmarketing.com"
+  },
+  {
+    "id": 4,
+    "firstName": "Sarah",
+    "lastName": "Farkas",
+    "image": "https://via.placeholder.com/150.png",
+    "role": "Social Media Specialist",
+    "fullName": "Sarah Farkas",
+    "phoneNumber": "303-555-4783",
+    "email": "s.Farkas@evergreenmarketing.com"
+  },
+  {
+    "id": 5,
+    "firstName": "Karen",
+    "lastName": "Thompson",
+    "image": "https://via.placeholder.com/150.png",
+    "role": "SEO Analyst",
+    "fullName": "Karen Thompson",
+    "phoneNumber": "303-555-4784",
+    "email": "k.Thompson@evergreenmarketing.com"
+  },
+  {
+    "id": 6,
+    "firstName": "Daren",
+    "lastName": "Plesz",
+    "image": "https://via.placeholder.com/150.png",
+    "role": "Student",
+    "fullName": "Daren Plesz",
+    "phoneNumber": "303-555-4785",
+    "email": "d.Plesz@evergreenmarketing.com"
+  },
+  {
+    "id": 7,
+    "firstName": "Ian",
+    "lastName": "Perez",
+    "image": "https://via.placeholder.com/150.png",
+    "role": "Google Ads Specialist",
+    "fullName": "Ian Perez",
+    "phoneNumber": "303-555-4786",
+    "email": "i.Perez@evergreenmarketing.com"
+  },
+  {
+    "id": 8,
+    "firstName": "Brian",
+    "lastName": "Traverse",
+    "image": "https://via.placeholder.com/150.png",
+    "role": "SEO Analyst",
+    "fullName": "Brian Traverse",
+    "phoneNumber": "303-555-4787",
+    "email": "b.traverse@evergreenmarketing.com"
+  },
+  {
+    "id": 9,
+    "firstName": "Marianne",
+    "lastName": "Copley",
+    "image": "https://via.placeholder.com/150.png",
+    "role": "Director of Marketing",
+    "fullName": "Marianne Copley",
+    "phoneNumber": "303-555-4788",
+    "email": "m.Copley@evergreenmarketing.com"
+  },
+  {
+    "id": 10,
+    "firstName": "Seraphima",
+    "lastName": "Edwards",
+    "image": "https://via.placeholder.com/150.png",
+    "role": "Custodian",
+    "fullName": "Seraphima Edwards",
+    "phoneNumber": "303-555-4789",
+    "email": "s.Edwards@evergreenmarketing.com"
+  },
+  {
+    "id": 11,
+    "firstName": "Ivan",
+    "lastName": "Renaldi",
+    "image": "https://via.placeholder.com/150.png",
+    "role": "SEM Manager",
+    "fullName": "Ivan Renaldi",
+    "phoneNumber": "303-555-4790",
+    "email": "i.Renaldi@evergreenmarketing.com"
+  },
+  {
+    "id": 12,
+    "firstName": "Gerald",
+    "lastName": "Coven",
+    "image": "https://via.placeholder.com/150.png",
+    "role": "SEO Analyst",
+    "fullName": "Gerald Coven",
+    "phoneNumber": "303-555-4791",
+    "email": "g.Coven@evergreenmarketing.com"
+  },
+  {
+    "id": 13,
+    "firstName": "Kyle",
+    "lastName": "Tinson",
+    "image": "https://via.placeholder.com/150.png",
+    "role": "Customer Service Specialist",
+    "fullName": "Kyle Tinson",
+    "phoneNumber": "303-555-4792",
+    "email": "k.Tinson@evergreenmarketing.com"
+  },
+  {
+    "id": 14,
+    "firstName": "Laura",
+    "lastName": "Oswold",
+    "image": "https://via.placeholder.com/150.png",
+    "role": "Vice President",
+    "fullName": "Larua Oswold",
+    "phoneNumber": "303-555-4793",
+    "email": "l.Oswold@evergreenmarketing.com"
+  },
+  {
+    "id": 15,
+    "firstName": "Maria",
+    "lastName": "Alvarez",
+    "image": "https://via.placeholder.com/150.png",
+    "role": "SEO Analyst",
+    "fullName": "Maria Alvarez",
+    "phoneNumber": "303-555-4794",
+    "email": "m.Alvarez@evergreenmarketing.com"
+  },
+  {
+    "id": 16,
+    "firstName": "Michael",
+    "lastName": "Hanson",
+    "image": "https://via.placeholder.com/150.png",
+    "role": "Sales Representative",
+    "fullName": "Michael Hanson",
+    "phoneNumber": "303-555-4795",
+    "email": "m.Hanson@evergreenmarketing.com"
+  },
+  {
+    "id": 17,
+    "firstName": "Jeremy",
+    "lastName": "Rogers",
+    "image": "https://via.placeholder.com/150.png",
+    "role": "SEO Analyst",
+    "fullName": "Jeremy Rogers",
+    "phoneNumber": "303-555-4796",
+    "email": "j.Rogers@evergreenmarketing.com"
+  },
+  {
+    "id": 18,
+    "firstName": "Austin",
+    "lastName": "Garcia",
+    "image": "https://via.placeholder.com/150.png",
+    "role": "CEO",
+    "fullName": "Austin Garcia",
+    "phoneNumber": "303-555-4797",
+    "email": "a.Garcia@evergreenmarketing.com"
+  },
+  {
+    "id": 19,
+    "firstName": "Marshall",
+    "lastName": "Nadler",
+    "image": "https://via.placeholder.com/150.png",
+    "role": "SEM Marketer",
+    "fullName": "Marshall Nadler",
+    "phoneNumber": "303-555-4798",
+    "email": "m.Nadler@evergreenmarketing.com"
+  },
+  {
+    "id": 20,
+    "firstName": "Danny",
+    "lastName": "Trist",
+    "image": "https://via.placeholder.com/150.png",
+    "role": "CFO",
+    "fullName": "Danny Trist",
+    "phoneNumber": "303-555-4799",
+    "email": "dTrist@evergreenmarketing.com"
+}
+]
