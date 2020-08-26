@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import employees from './employeelist.json';
 import Directory from './components/Directory';
-import Table from './components/Table';
+import EmployeesTable from './components/EmployeesTable';
 import Title from './components/Title';
 
 class App extends Component {
@@ -57,7 +57,7 @@ class App extends Component {
                     placeholder="Find an employee by name"
                     />
                 </form>
-                <Table
+                <EmployeesTable
                 employees={this.state.filteredList}
                 sortByName={this.sortByName}
                 sortByRole={this.sortByRole}

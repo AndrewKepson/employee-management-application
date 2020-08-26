@@ -1,6 +1,8 @@
 import React from 'react';
+import Table from "react-bootstrap-table"
+import {FaSortUp} from "react-icons/fa"
 
-const Table = props => {
+function EmployeesTable(props) {
     return(
         <Table striped bordered hover variant="light">
             <thead>
@@ -9,10 +11,10 @@ const Table = props => {
                         Picture
                     </th>
                     <th onClick={props.sortByName}>
-                        {/* Name <FaSortUp /> */}
+                        Name <FaSortUp />
                     </th>
                     <th onClick={props.sortByRole}>
-                        {/* Role <FaSortUp /> */}
+                        Role <FaSortUp />
                     </th>
                     <th>
                         Phone Number
@@ -47,4 +49,4 @@ const Table = props => {
     )
 }
 
-export default Table;
+export default EmployeesTable;
