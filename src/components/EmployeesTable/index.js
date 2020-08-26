@@ -1,6 +1,7 @@
 import React from 'react';
 import Table from "react-bootstrap/Table"
 import {FaSortUp} from "react-icons/fa"
+import './EmployeesTable.css'
 
 function EmployeesTable(props) {
     console.log(Table);

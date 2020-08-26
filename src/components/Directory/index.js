@@ -1,4 +1,5 @@
 import React from 'react';
+import './Directory.css'
 
 const Directory = props => {
     return(

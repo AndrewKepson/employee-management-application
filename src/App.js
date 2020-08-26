@@ -3,6 +3,7 @@ import employees from './employeelist.json';
 import Directory from './components/Directory';
 import EmployeesTable from './components/EmployeesTable';
 import Title from './components/Title';
+import './App.css'
 
 class App extends Component {
     state = {
@@ -46,9 +47,9 @@ class App extends Component {
 
     render() {
         return(
-            <Directory>
+            <Directory className="wrapper">
                 <Title>Employee Directory</Title>
-                <form className="form mb-5">
+                <form className="form mb-8">
                     <input
                     value={this.state.search}
                     name="search"
