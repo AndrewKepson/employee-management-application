@@ -1,8 +1,9 @@
 import React from 'react';
-import Table from "react-bootstrap-table"
+import Table from "react-bootstrap/Table"
 import {FaSortUp} from "react-icons/fa"
 
 function EmployeesTable(props) {
+    console.log(Table);
     return(
         <Table striped bordered hover variant="light">
             <thead>
