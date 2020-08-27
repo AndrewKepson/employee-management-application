@@ -12,6 +12,10 @@ As a user, I want to be able to view my entire employee directory at once so tha
 
 An employee or manager would benefit greatly from being able to view non-sensitive data about other employees. It would be particularly helpful to be able to filter employees by name.
 
-## Acceptance Criteria
+## Application
+
+<img src="./public/screenshot.png">
+
+https://andrewkepson.github.io/employee-management-application/
 
 
