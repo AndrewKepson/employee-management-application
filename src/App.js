@@ -3,7 +3,6 @@ import employees from './employeelist.json';
 import Directory from './components/Directory';
 import EmployeesTable from './components/EmployeesTable';
 import Title from './components/Title';
-import './App.css'
 
 class App extends Component {
     state = {
