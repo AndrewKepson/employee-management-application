@@ -1,1 +1,0 @@
-{"version":3,"sources":["Directory.css","EmployeesTable.css"],"names":[],"mappings":"AAAA,SACI,kBAEJ,CCHA,iBACI,kBACJ,CAEA,wBACG,kBACH","file":"main.9815f95e.chunk.css","sourcesContent":[".wrapper {\r\n    background: #fbe2e5;\r\n    \r\n}","tr:nth-child(even) {\r\n    background: #767c77;\r\n}\r\n\r\ntbody tr:nth-child(odd) {\r\n   background: #9cada4;\r\n}"]}
