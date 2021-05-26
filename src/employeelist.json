@@ -1,5 +1,4 @@
-[
-  {
+[{
     "id": 1,
     "firstName": "Daniel",
     "lastName": "Aberanda",
@@ -198,5 +197,5 @@
     "fullName": "Danny Trist",
     "phoneNumber": "303-555-4799",
     "email": "dTrist@evergreenmarketing.com"
-}
+  }
 ]

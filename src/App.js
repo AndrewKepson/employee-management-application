@@ -1,72 +1,60 @@
-import React, { Component } from 'react';
-import employees from './employeelist.json';
-import Directory from './components/Directory';
-import EmployeesTable from './components/EmployeesTable';
-import Title from './components/Title';
+import React, { useState } from 'react'
+import employees from './employeelist.json'
+import EmployeesTable from './components/EmployeesTable'
+import Header from './components/Header'
 
-class App extends Component {
-    state = {
-        employees,
-        filteredList: employees,
-        search: ""
-    };
+export default function App() {
+	const [state, setState] = useState({
+		employees,
+		filteredList: employees,
+		search: ''
+	})
 
-    //Sets a variable to allow us to access employees that are filtered when we search, set to lowercase for consistency, and checking if it matches with the starting values of the employees in the directory
-    handleInputChange = e => {
-        const input = e.target.value;
-       
-        const filteredList = this.state.employees.filter((employee) => 
-        employee.fullName.toLowerCase().startsWith(input.toLowerCase())
-        );
+	const getFilteredList = (list, input) =>
+		list.filter(item =>
+			item.fullName.toLowerCase().startsWith(input.toLowerCase())
+		)
 
-        this.setState({ filteredList });
+	const handleInputChange = e => {
+		const input = e.target.value
 
-        this.setState({
-            search: input
-        });
-    };
+		const filteredList = getFilteredList(state.employees, input)
 
-    //Function to sort employees by name alphabetically
-    sortByName = () => {
-        let sortedNames = this.state.filteredList.sort((a, b) => 
-            a.fullName > b.fullName ? 1 : -1
-        );
+		setState({ ...state, filteredList, search: input })
+	}
 
-        this.setState({ filteredList: sortedNames });
-    };
+	const sortByName = () => {
+		let sortedNames = state.filteredList.sort((a, b) =>
+			a.fullName > b.fullName ? 1 : -1
+		)
+		setState({ ...state, filteredList: sortedNames })
+	}
 
-    //Function to sort employees by role alphabetically
-    sortByRole = () => {
-        let sortedRoles = this.state.filteredList.sort((a,b) =>
-        a.role > b.role ? 1 : -1
-        );
+	const sortByRole = () => {
+		let sortedRoles = state.filteredList.sort((a, b) =>
+			a.role > b.role ? 1 : -1
+		)
+		setState({ ...state, filteredList: sortedRoles })
+	}
 
-        this.setState({ filteredList: sortedRoles });
-    };
-
-    render() {
-        return(
-            <Directory className="wrapper">
-                <Title>Employee Directory</Title>
-                <form className="form mb-8">
-                    <input
-                    value={this.state.search}
-                    name="search"
-                    onChange={this.handleInputChange}
-                    type="text"
-                    placeholder="Find an employee by name"
-                    />
-                </form>
-                <EmployeesTable
-                employees={this.state.filteredList}
-                sortByName={this.sortByName}
-                sortByRole={this.sortByRole}
-                />
-            </Directory>
-        )
-    
-    }
-
+	return (
+		<div>
+			<Header />
+			<form className='form mb-8'>
+				<input
+					value={state.search}
+					style={{ margin: '1rem', padding: '0.5rem', width: '500px' }}
+					name='search'
+					onChange={handleInputChange}
+					type='text'
+					placeholder='Find an employee by name'
+				/>
+			</form>
+			<EmployeesTable
+				employees={state.filteredList}
+				sortByName={sortByName}
+				sortByRole={sortByRole}
+			/>
+		</div>
+	)
 }
-
-export default App;
